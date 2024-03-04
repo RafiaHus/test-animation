@@ -5,52 +5,144 @@ body {
 .main-title {
     color: #000;
     font-family: "Inria Serif" sans-serif;
-    font-size: 24px;
+    font-size: 28px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     text-align: center;
-    
+    margin-top: 40px;
 }
 
-.first-line {
-    width: 300px;
+.line--first {
+    width: 400px;
     height: 1px;
-    background: #000;
-    margin: 5px;
+    border-bottom: 1px solid #000;
+    display: inline-block;
 }
 
 .main-text {
     color: #000;
     font-family: "Inria Serif" sans-serif;
-    font-size: 14px;
+    font-size: 18px;
     font-style: italic;
     font-weight: 400;
     line-height: normal;
     text-align: center;
 }
 
-.second-line {
-    width: 216.002px;
+.line--second {
+    width: 300px;
     height: 1px;
-    background: #000;
+    border-bottom: 1px solid #000;
+    display: inline-block
 }
 
-.circle {
+.image {
+    width: 100%;
+    height: auto;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.one--circle {
-    margin-left: 130px;
+.image-pom {
+    width: 200px;
+    height: 200px;
+    border-radius: 105px;
+    overflow: hidden;
+    margin-left: 10px; 
     margin-top: 80px;
+    background-size: cover;
+    background-image: url(images/pomodoro.jpg);
 }
 
-.two--circle {
-    margin-left: 205px; 
+.image-rav {
+    width: 200px;
+    height: 200px;
+    border-radius: 105px;
+    overflow: hidden;
+    margin-left: 130px; 
     margin-top: 80px;
+    background-size: cover;
+    background: url(/images/ravioli.png);
 }
 
-.three--circle {
-    margin-left: 200px;
-    margin-top: 80px; 
+.image-cac {
+    width: 200px;
+    height: 200px;
+    border-radius: 105px;
+    overflow: hidden;
+    margin-left: 140px; 
+    margin-top: 80px;
+    background-size: cover;
+    background: url(/images/cacioepepe.jpg);
+}
+
+.container {
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container--first {
+    width: 94px;
+    height: 90px;
+    background: #F1D12B;
+    width: 150px;
+    height: 120px;
+    color: #000;
+    font-family: "Inria Serif" sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    border: 1px solid #000;
+    background: #F1D12B;
+    margin-right: 160px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.container--second {
+    width: 94px;
+    height: 90px;
+    background: #F1D12B;
+    width: 150px;
+    height: 120px;
+    color: #000;
+    font-family: "Inria Serif" sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    border: 1px solid #000;
+    background: #F1D12B;
+    margin-right: 100px;
+    margin-top: 20px;
+    padding: 15px;
+}
+
+.container--third {
+    width: 94px;
+    height: 90px;
+    background: #F1D12B;
+    width: 150px;
+    height: 120px;
+    color: #000;
+    font-family: "Inria Serif" sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    border: 1px solid #000;
+    background: #F1D12B;
+    margin-left: 60px;
+    margin-top: 20px;
+    padding: 15px;
+    
 }
