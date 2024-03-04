@@ -1,0 +1,56 @@
+body {
+    background-color: #C8AA0B;
+}
+
+.main-title {
+    color: #000;
+    font-family: "Inria Serif" sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    
+}
+
+.first-line {
+    width: 300px;
+    height: 1px;
+    background: #000;
+    margin: 5px;
+}
+
+.main-text {
+    color: #000;
+    font-family: "Inria Serif" sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+}
+
+.second-line {
+    width: 216.002px;
+    height: 1px;
+    background: #000;
+}
+
+.circle {
+    display: flex;
+}
+
+.one--circle {
+    margin-left: 130px;
+    margin-top: 80px;
+}
+
+.two--circle {
+    margin-left: 205px; 
+    margin-top: 80px;
+}
+
+.three--circle {
+    margin-left: 200px;
+    margin-top: 80px; 
+}
