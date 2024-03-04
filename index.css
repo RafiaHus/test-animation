@@ -13,6 +13,14 @@ body {
     margin-top: 40px;
 }
 
+/*.main-title:hover {
+    width: 50px;
+    height: 100px;
+    background: #C8AA0B;
+    transition: width 3s;
+    width: 300px;
+}*/
+
 .line--first {
     width: 400px;
     height: 1px;
@@ -80,10 +88,22 @@ body {
 
 .container {
     width: 100%;
+    height: 100%;
     flex-direction: row;
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.container--first:hover {
+background: #C8AA0B;
+}
+
+.container--first {
+    width: 100%;
+    height: 100%;
+    background: #F1D12B;
+    transition-duration: 500ms;
 }
 
 .container--first {
@@ -100,11 +120,21 @@ body {
     line-height: normal;
     text-align: center;
     border: 1px solid #000;
-    background: #F1D12B;
     margin-right: 160px;
     margin-top: 20px;
     padding: 15px;
 }
+
+.container--second:hover {
+    background: #C8AA0B;
+    }
+    
+    .container--second {
+        width: 100%;
+        height: 100%;
+        background: #F1D12B;
+        transition-duration: 500ms;
+    }
 
 .container--second {
     width: 94px;
@@ -120,11 +150,21 @@ body {
     line-height: normal;
     text-align: center;
     border: 1px solid #000;
-    background: #F1D12B;
     margin-right: 100px;
     margin-top: 20px;
     padding: 15px;
 }
+
+.container--third:hover {
+    background: #C8AA0B;
+    }
+    
+    .container--third {
+        width: 100%;
+        height: 100%;
+        background: #F1D12B;
+        transition-duration: 500ms;
+    }
 
 .container--third {
     width: 94px;
@@ -140,7 +180,6 @@ body {
     line-height: normal;
     text-align: center;
     border: 1px solid #000;
-    background: #F1D12B;
     margin-left: 60px;
     margin-top: 20px;
     padding: 15px;
