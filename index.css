@@ -13,19 +13,20 @@ body {
     margin-top: 40px;
 }
 
-/*.main-title:hover {
-    width: 50px;
-    height: 100px;
-    background: #C8AA0B;
-    transition: width 3s;
-    width: 300px;
-}*/
+@keyframes zoomIn {
+    from {
+        transform: scale(1);
+    }
 
-.line--first {
-    width: 400px;
-    height: 1px;
-    border-bottom: 1px solid #000;
-    display: inline-block;
+    to {
+        transform: scale(2);
+    }
+}
+
+.zoomIn {
+    font-size: 30;
+    animation: zoomIn 2s ease-in-out infinite normal;
+    text-transform: uppercase;
 }
 
 .main-text {
@@ -38,11 +39,9 @@ body {
     text-align: center;
 }
 
-.line--second {
-    width: 300px;
-    height: 1px;
-    border-bottom: 1px solid #000;
-    display: inline-block
+.underline {
+    display: inline-block;
+    text-decoration: underline;
 }
 
 .image {
@@ -58,7 +57,7 @@ body {
     height: 200px;
     border-radius: 105px;
     overflow: hidden;
-    margin-left: 10px; 
+    margin-left: 10px;
     margin-top: 80px;
     background-size: cover;
     background-image: url(images/pomodoro.jpg);
@@ -69,7 +68,7 @@ body {
     height: 200px;
     border-radius: 105px;
     overflow: hidden;
-    margin-left: 130px; 
+    margin-left: 130px;
     margin-top: 80px;
     background-size: cover;
     background: url(/images/ravioli.png);
@@ -80,7 +79,7 @@ body {
     height: 200px;
     border-radius: 105px;
     overflow: hidden;
-    margin-left: 140px; 
+    margin-left: 140px;
     margin-top: 80px;
     background-size: cover;
     background: url(/images/cacioepepe.jpg);
@@ -96,7 +95,7 @@ body {
 }
 
 .container--first:hover {
-background: #C8AA0B;
+    background: #C8AA0B;
 }
 
 .container--first {
@@ -127,14 +126,14 @@ background: #C8AA0B;
 
 .container--second:hover {
     background: #C8AA0B;
-    }
-    
-    .container--second {
-        width: 100%;
-        height: 100%;
-        background: #F1D12B;
-        transition-duration: 500ms;
-    }
+}
+
+.container--second {
+    width: 100%;
+    height: 100%;
+    background: #F1D12B;
+    transition-duration: 500ms;
+}
 
 .container--second {
     width: 94px;
@@ -157,14 +156,14 @@ background: #C8AA0B;
 
 .container--third:hover {
     background: #C8AA0B;
-    }
-    
-    .container--third {
-        width: 100%;
-        height: 100%;
-        background: #F1D12B;
-        transition-duration: 500ms;
-    }
+}
+
+.container--third {
+    width: 100%;
+    height: 100%;
+    background: #F1D12B;
+    transition-duration: 500ms;
+}
 
 .container--third {
     width: 94px;
@@ -183,5 +182,4 @@ background: #C8AA0B;
     margin-left: 60px;
     margin-top: 20px;
     padding: 15px;
-    
 }
